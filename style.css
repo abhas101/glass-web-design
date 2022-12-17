@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-image: url(bg3.jpg);
+    background-size: 400%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.logo{
+    width:2.3rem;
+    cursor: pointer;
+}
+.navbar{
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.nav-items ul {
+    display: flex;
+}
+
+.nav-items ul li{
+    list-style: none;
+    display: flex;
+    margin-right: 1rem;
+}
+.nav-items ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+.nav-items ul li a:hover{
+    color: black;
+}
+.container{
+    background-color: rgba(179, 232, 241, 0.3);
+    width: 80%;
+    min-height: 15rem;
+    margin-top: 3rem;
+    border-radius: 25px;
+    align-items: center;
+    text-align: center;    
+    box-shadow: -1px 1px 10px black;
+    backdrop-filter: blur(2px);
+    padding:1px;
+}
+
+
+.heroimage{
+    width:8rem;
+    margin: 12px;
+    border-radius: 20px;
+    box-shadow: -1px 1px 10px black;
+
+}
+.container p{
+    text-align: center;
+    justify-content: center;
+}
+.container-2{
+    display: flex;
+    background-color: rgba(223, 166, 246, 0.3);
+    width: 80%;
+    min-height: 7rem;
+    margin-top: 2rem;
+    border-radius: 25px;
+    align-items: center;
+    text-align: center;    
+    box-shadow: -2px 1px 12px black;
+    backdrop-filter: blur(2px);
+    padding:1px;
+}
+.left{
+    display: flex;
+    margin-top: .5rem;
+    padding: 5px;
+    margin-bottom: .5rem;
+}
+.left ul li{
+    list-style: none;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+.left ul span li{
+    color: aqua;
+    margin-bottom: 9px;
+}
+
+.right{
+    display: flex;
+    margin-top: .5rem;
+    padding: 5px;
+    margin-bottom: .5rem;
+    margin-left: 3rem;
+}
+.right ul li{
+    list-style: none;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+.right ul span li{
+    color: aqua;
+    margin-bottom: 9px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ 
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+.btn button{
+    background-color: rgb(213, 242, 247,.5);
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    padding: 5px;
+    border: none;
+    box-shadow: -1px 1px 1px black;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(8, 12, 41);
+    transition: all 0.3s ease;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    margin-bottom: 15px;
+    
+}
+button:hover{
+    background-color:black;
+    color: white;
+
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 2rem;
+    width: 50%;
+    
+}
+.icon a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    
+
+}
+.icon-sec{
+    margin-bottom: 0;
+    height: 0;
+}
+.rights{
+    margin-bottom: 2rem;
+    color: white;
+    
+}
+.rights p{
+    font-family: sans-serif;
+    font-size:10px;
+}
+
+@media (min-width:1200px){
+    .container{
+        width:20rem;
+    }
+    .container-2{
+        align-items: center;
+        justify-content: space-between;
+        width:20rem;
+    }
+    .icon{
+        width:15rem;
+    }
+    body{
+        background-size: 200%;
+    }
+    .nav-items ul li{
+        margin-right: 5rem;
+    }
+}
